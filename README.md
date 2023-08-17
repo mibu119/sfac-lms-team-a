@@ -1,18 +1,17 @@
-<p align="center" style="background-color: white">
-<img src="https://github.com/seonnn/perfume-search-project/assets/90498108/7955b77d-6b19-4102-bbc0-17881e461027" />
-</p>
-</br>
-<center>
-<p style="font-weight: bold; font-size: 1.3rem">배포 링크</p>
-<a href="https://lms-a.sniperfactory.com/" target="_blank"><img src="https://img.shields.io/badge/SFAC-0059FF?style=for-the-badge&logo=Vercel&logoColor=white"/></a>
-</center>
 
+<div align="center">
+<img style="width: 100%" src="https://github.com/mibu119/sfac-lms-team-a/assets/114740795/1b064da2-e335-4bc0-b911-0c0a77519e78">
 </br>
-</br>
+
+### 배포 링크
+  
+<a href="https://lms-a.sniperfactory.com/" target="_blank"><img src="https://img.shields.io/badge/SFAC-0059FF?style=for-the-badge&logo=Vercel&logoColor=white"/></a>  
+</div>
 
 # LMS 학습 관리 시스템
 
 > 프로젝트 기간: 2023년 7월 17일 ~ 2023년 8월 11일 (26일)
+</br>
 
 ## 🏢 팀 소개
 
