@@ -5,8 +5,8 @@ import { Read } from "./Detail";
 import { useGetUser } from "@/hooks/reactQuery/assignment/useGetDetailAssignment";
 import { useGetSubmittedAssignment } from "@/hooks/reactQuery/submittedAssignment/useGetSubmittedAssignment";
 import ModalWrapper from "@/components/ModalWrapper";
-import SubmittedAssignmentDetail from "../../(components)/SubmittedAssignmentDetail";
 import useModal from "@/hooks/common/useModal";
+import SubmittedAssignmentDetail from "../../(components)/(submittedAssignment)/SubmittedAssignmentDetail";
 
 interface SubmitAssignProps {
   ele: SubmittedAssignment;

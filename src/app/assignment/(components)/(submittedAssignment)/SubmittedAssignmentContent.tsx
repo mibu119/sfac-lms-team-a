@@ -44,7 +44,7 @@ const SubmittedAssignmentContent = ({
     if (handleModal) handleModal();
   };
 
-  if (!data) return <div>조회된 과제가 없습니다.</div>;
+  if (!data || !data[0]) return <div>조회된 과제가 없습니다.</div>;
   return (
     <Card vertical={true}>
       <div className="flex justify-between items-center">

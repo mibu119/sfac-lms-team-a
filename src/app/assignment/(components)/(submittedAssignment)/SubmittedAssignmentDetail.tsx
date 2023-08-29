@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import Feedback from "./(feedback)/Feedback";
 import { User } from "@/types/firebase.types";
 import { useGetSubmittedAssignment } from "@/hooks/reactQuery/submittedAssignment/useGetSubmittedAssignment";
-import SubmittedAssignmentContent from "./(submittedAssignment)/SubmittedAssignmentContent";
 import useGetFeedbacks from "@/hooks/reactQuery/feedback/useGetFeedbacks";
 import LoadingSpinner from "@/components/Loading/Loading";
+import SubmittedAssignmentContent from "./SubmittedAssignmentContent";
+import Feedback from "../(feedback)/Feedback";
 
 const SubmittedAssignmentDetail = ({
   docId,
@@ -24,12 +24,11 @@ const SubmittedAssignmentDetail = ({
   const { data: feedbackData, isLoading: feedbackIsLoading } =
     useGetFeedbacks(docId);
 
-  // console.log("submitted", data);
-  // isLoading 대신에 prefetch를 사용할 경우
-  // const { handleMouseOver } = useGetFeedbacks("gZWELALnKoZLzJKjXGUM");
   if (submittedAssignmentIsLoading || feedbackIsLoading) {
     return <LoadingSpinner />;
   }
+
+  console.log(submittedAssignmentData);
 
   return (
     <section className="mt-[22.92px]">

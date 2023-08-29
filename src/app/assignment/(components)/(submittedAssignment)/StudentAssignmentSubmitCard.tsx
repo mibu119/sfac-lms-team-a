@@ -1,12 +1,12 @@
 import ModalWrapper from "@/components/ModalWrapper";
 import React from "react";
-import AssignmentLinkSubmitModal from "./AssignmentLinkSubmitModal";
-import AssignmentFileSubmitModal from "./AssignmentFileSubmitModal";
 import Image from "next/image";
+import AssignmentLinkSubmitModal from "../AssignmentLinkSubmitModal";
+import AssignmentFileSubmitModal from "./AssignmentFileSubmitModal";
+import SubmittedAssignmentDetail from "./SubmittedAssignmentDetail";
+import useModal from "@/hooks/common/useModal";
 import { User } from "@/types/firebase.types";
 import { useGetSubmittedAssignmentId } from "@/hooks/reactQuery/submittedAssignment/useGetSubmittedAssignementId";
-import useModal from "@/hooks/common/useModal";
-import SubmittedAssignmentDetail from "./SubmittedAssignmentDetail";
 import { useAppSelector } from "@/redux/store";
 
 interface StudentAssignmentSubmitCardProps {

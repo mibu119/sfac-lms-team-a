@@ -8,7 +8,7 @@ import { Read } from "./Detail";
 import { DocumentData } from "firebase/firestore";
 import useGetDetailSubmitted from "@/hooks/reactQuery/assignment/useGetDetailSubmitted";
 import SubmitAssignmentCard from "./SubmitAssignmentCard";
-import StudentAssignmentSubmitCard from "../../(components)/StudentAssignmentSubmitCard";
+import StudentAssignmentSubmitCard from "../../(components)/(submittedAssignment)/StudentAssignmentSubmitCard";
 
 const SubmittedAssignmentList = ({
   setRead,
