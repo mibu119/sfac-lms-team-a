@@ -50,7 +50,7 @@ const FilUploader = ({
   return (
     <div className="flex gap-x-[6px]">
       <div
-        className="relative w-[60px] h-[60px] rounded-[10px] bg-[url('/images/Vector.svg')] bg-no-repeat bg-center bg-[length:27.26px_28.58px] bg-grayscale-10 z-3"
+        className="relative w-[60px] h-[60px] rounded-[10px] bg-[url('/images/vector.svg')] bg-no-repeat bg-center bg-[length:27.26px_28.58px] bg-grayscale-10 z-3"
         onChange={addImage}
       >
         <input
