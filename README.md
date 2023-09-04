@@ -5,7 +5,13 @@
 
 ### 배포 링크
   
-<a href="https://lms-a.sniperfactory.com/" target="_blank"><img src="https://img.shields.io/badge/SFAC-0059FF?style=for-the-badge&logo=Vercel&logoColor=white"/></a>  
+<a href="https://lms-a.sniperfactory.com/" target="_blank"><img src="https://img.shields.io/badge/SFAC-0059FF?style=for-the-badge&logo=Vercel&logoColor=white"/></a>
+</br>
+로그인 테스트 계정
+||멘토|수강생|
+|------|---|---|
+|ID|beomtest@gmail.com|user@gmail.com|
+|PW|beom1234|test1234!|
 </div>
 
 # LMS 학습 관리 시스템
